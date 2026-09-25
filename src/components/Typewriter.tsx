@@ -39,7 +39,7 @@ export default function Typewriter({
   }, [text, deleting, wordIndex, words, typingSpeed, deletingSpeed, holdMs]);
 
   return (
-    <span className={cn("whitespace-nowrap", className)}>
+    <span className={cn("break-words", className)}>
       {text}
       <span className="ml-0.5 inline-block h-[0.95em] w-[2px] translate-y-[0.08em] animate-pulse bg-violet-500" />
     </span>

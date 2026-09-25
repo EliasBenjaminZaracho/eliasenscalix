@@ -43,8 +43,9 @@ export default function Hero() {
             </Reveal>
 
             <Reveal delay={80}>
-              <h1 className="mt-6 font-serif text-[2.6rem] font-semibold leading-[1.06] tracking-tight text-ink sm:text-6xl lg:text-[4.2rem]">
-                Ayudamos a tu negocio local a conseguir{" "}
+              <h1 className="mt-6 font-serif text-[2rem] font-semibold leading-[1.1] tracking-tight text-ink sm:text-5xl lg:text-[3.75rem]">
+                Tu{" "}
+                negocio,{" "}
                 <Typewriter
                   words={[
                     "el Top 3 en Google Maps",
@@ -58,11 +59,24 @@ export default function Hero() {
               </h1>
             </Reveal>
 
+            <Reveal delay={80}>
+              <p className="mt-6 max-w-xl font-serif text-xl leading-relaxed text-ink sm:text-2xl">
+                Si querés aparecer en el{" "}
+                <span className="font-semibold text-violet-700">
+                  Top 3 de Google
+                </span>
+                , tu negocio debe estar en{" "}
+                <span className="font-semibold text-violet-700">
+                  Google Maps
+                </span>
+                .
+              </p>
+            </Reveal>
+
             <Reveal delay={160}>
-              <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-                Diseñamos, posicionamos y hacemos crecer tu presencia online:
-                Google Maps, SEO, GEO y páginas web profesionales. Planes
-                claros, sin sorpresas, desde{" "}
+              <p className="mt-4 max-w-xl text-base leading-relaxed text-muted">
+                Esa presencia la diseñamos, la posicionamos y la hacemos crecer
+                por ti. Planes claros, sin sorpresas, desde{" "}
                 <span className="font-semibold text-ink">49 €/mes</span>.
               </p>
             </Reveal>
